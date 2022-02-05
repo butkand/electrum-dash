@@ -181,11 +181,14 @@ class DashNet(Logger):
             self.spork_address = 'yjPtiKh2uwk3bDutTEA2q9mCtXyiZRWn55'
             self.dns_seeds = ['testnet-seed.dashdot.io']
         else:
-            self.default_port = 9999
-            self.start_str = b'\xBF\x0C\x6B\xBD'
-            self.spork_address = 'Xgtyuk76vhuFW2iT7UAiHgNdWXCf3J34wh'
-            self.dns_seeds = ['dnsseed.dash.org',
-                              'dnsseed.dashdot.io']
+            self.default_port = 14240
+            self.start_str = b'\x22\x84\x56\x2e'
+            self.spork_address = 'XdccBnRd4AMEnfEhVgoLUL6aPjC3kkgJih'
+            self.dns_seeds = ['51.79.220.19',
+                              '31.40.251.11',
+                              '51.161.32.104',
+                              '51.161.35.170'
+                              ]
         self.network = network
         self.proxy = None
         self.loop = network.asyncio_loop

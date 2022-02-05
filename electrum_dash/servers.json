@@ -1,15 +1,15 @@
 {
-    "electrumx-mainnet.dash.org": {
+    "51.161.32.104": {
         "pruning": "-",
         "s": "50002",
         "version": "1.4"
     },
-    "drk.p2pay.com": {
+    "51.161.32.104": {
         "pruning": "-",
         "s": "50002",
         "version": "1.4"
      },
-    "hbhux3mfytxeywes5qesx7nzoesukihwseqkw7qa7oprc5nqqxj3jiid.onion": {
+    "51.161.32.104": {
         "pruning": "-",
         "s": "50002",
         "version": "1.4"

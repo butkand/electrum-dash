@@ -356,7 +356,7 @@ class DashProRegTx(ProTxBase):
         if self.collateralOutpoint.hash_is_null:
             found_idx = -1
             for i, o in enumerate(tx.outputs()):
-                if o.value == 1000 * COIN:
+                if o.value == 6000000 * COIN:
                     found_idx = i
                     break
             if found_idx >= 0:
